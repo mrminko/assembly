@@ -2,5 +2,5 @@
 .section .text
 _start:
     movq $60, %rax
-    movq $3, %rdi
+    movq $5, %rdi
     syscall
